@@ -1,0 +1,281 @@
+.navbar {
+  padding:4em;
+  transition: .6s;
+  text-align: center;
+
+}
+
+.navbar ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.navbar ul li {
+  list-style-type: none;
+  font-family: sans-serif;
+  cursor: pointer;
+  margin: 12px;
+
+}
+
+.navbar a:hover {
+  background:#FF5900;
+}
+
+.navbar li a {
+  color:white;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+  transition: .6s;
+
+}
+/*ending of enheritance*/
+.menu {
+  float: left;
+  width: 20%;
+}
+
+.menuitem {
+  padding: 8px;
+  margin-top: 5px;
+  border-bottom: 1px solid #f1f1f1;
+} 
+
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+  overflow: hidden;
+}
+.right {
+  background-color: lightblue;
+  float: left;
+  width: 20%;
+  padding: 10px 15px;
+  margin-top: 7px;
+} 
+
+.img{
+  width: 25%;
+  border-radius: 50%;
+}
+a{
+  color: white;
+  background: #444;
+  text-decoration: none;
+}
+footer{
+   background-color: white;
+    }
+ .fa{
+    padding: 10px;
+     font-size: 20px;
+      width: 50px;
+     text-align: center;
+    text-decoration: none;
+      
+    }
+    .fa-instagram{
+        background: #125688;
+        color: white;
+    }
+    /*home-sectoin*/
+    .homesec{
+      height: 800px;
+      background: #444;
+    }
+.welcome {
+  color: white;
+  font-size: 60px;
+}
+
+
+
+.me-welcome {
+  margin: auto;
+  width: 50%;
+}
+
+.me{
+  font-size: 250%;
+  color: white;
+}   
+.div-img{
+  position: absolute;
+  left: 30%;
+  top: 90%;
+  transform:translate(-60%,-60%);
+}
+
+.div-img img{
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+.div-p{
+  position: absolute;
+  top: 60%;
+  left: 60%;
+  transform: translate(-60%-60%);
+  text-align: center;
+  width: 450px;
+  color: white;
+
+}
+
+  }
+  .footerr{
+    background-color: white;
+  }
+
+
+}
+/* tablet */
+
+
+@media (max-width: 850px) {
+  .navbar li a {
+  padding: 10px 10px;
+}
+}
+
+@media only screen and (min-width:376px) and (max-width:800px){
+
+.navbar {
+  padding:4em;
+  transition: .6s;
+  text-align: center;
+
+}
+
+.navbar ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar ul li {
+  list-style-type: none;
+  font-family: sans-serif;
+  cursor: pointer;
+  margin: 12px;
+
+}
+
+.navbar li a {
+  padding: 10px 10px;
+}
+}
+
+@media only screen and (max-width:768px){
+  .p1{line-height: 20px;
+       padding: 20px;
+    }
+
+  .menu {
+  float: left;
+  width: 20%;
+}
+
+.menuitem {
+  padding: 8px;
+  margin-top: 5px;
+  border-bottom: 1px solid #f1f1f1;
+} 
+
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+  overflow: hidden;
+}
+.right {
+  background-color: lightblue;
+  float: left;
+  width: 20%;
+  padding: 10px 15px;
+  margin-top: 7px;
+} 
+a{
+  color: white;
+  background: #444;
+  text-decoration: none;
+}
+footer{
+   background-color: black;
+    }
+ .fa{
+    padding: 10px;
+     font-size: 20px;
+      width: 50px;
+     text-align: center;
+    text-decoration: none;
+      
+    }
+    .fa-instagram{
+        background: #125688;
+        color: white;
+    }
+    /*home-sectoin*/
+    .homesec{
+      padding: 2em 0;
+    /*  height: 800px;*/
+      background: #444;
+    }
+.img{
+  width: 100%;
+}
+    .welcome {
+  position: relative;
+  margin-left: -10%;
+  color: white;
+  top: 1%;
+  z-index: 1;
+  font-size: 30px;
+}
+.welcome1{
+  position: relative;
+  color: white;
+  left: 0%;
+  top: 0%;
+  z-index: 0;
+  font-size: 30px;
+  opacity: .5;
+}
+.me{
+  font-size: 150%;
+  color: white;
+}
+marquee h3{
+  margin-top: 150px;
+}
+.div-img{
+  position: absolute;
+  left: 15%;
+  top: 90%;
+  transform:translate(-60%,-60%);
+}
+
+.div-img img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.div-p {
+  position: absolute;
+  margin-top: 5%;
+  margin-left: -30%;
+  transform: translate(-60%-60%);
+  text-align: center;
+  width: 250px;
+  color: white;
+
+}
+.div-p > h1 {
+  font-size: 16px;
+}
+.div-p > p {
+  font-size: 9px;
+}

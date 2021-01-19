@@ -1,0 +1,253 @@
+* {
+  box-sizing: border-box;
+}
+
+.navbar {
+  padding:4em;
+  transition: .6s;
+  text-align: center;
+
+}
+
+.navbar ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.navbar ul li {
+  list-style-type: none;
+  font-family: sans-serif;
+  cursor: pointer;
+  margin: 12px;
+
+}
+
+.navbar a:hover {
+  background:#FF5900;
+}
+
+.navbar li a {
+  color:white;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+  transition: .6s;
+
+}
+
+
+/*ending of enheritance*/
+.menu {
+  float: left;
+  width: 20%;
+}
+
+.menuitem {
+  padding: 8px;
+  margin-top: 5px;
+  border-bottom: 1px solid #f1f1f1;
+} 
+
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+  overflow: hidden;
+}
+.right {
+  background-color: lightblue;
+  float: left;
+  width: 20%;
+  padding: 10px 15px;
+  margin-top: 7px;
+} 
+
+.img{
+  width: 25%;
+  border-radius: 50%;
+}
+a{
+  color: white;
+  background: #444;
+  text-decoration: none;
+}
+footer{
+   background-color: white;
+    }
+ .fa{
+    padding: 10px;
+     font-size: 20px;
+      width: 50px;
+     text-align: center;
+    text-decoration: none;
+      
+    }
+    .fa-instagram{
+        background: #125688;
+        color: white;
+    }
+    /*home-sectoin*/
+
+.welcome {
+  color: white;
+  font-size: 60px;
+}
+.welcome1{
+  position: relative;
+  color: white;
+  left: 0%;
+  top: 0%;
+  z-index: 0;
+  font-size: 60px;
+  opacity: .5;
+
+} 
+.me{
+  font-size: 250%;
+  color: white;
+}   
+
+.div-img img{
+  width: 50%;
+  height: 215px;
+  border-radius: 50%;
+}
+
+.div-img {
+  width:35%;
+}
+
+.who-am-i {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: auto;
+}
+
+.hello-world-free-time {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  color: #fff;
+}
+
+/*mediaqueries*/
+
+@media (max-width: 850px) {
+  .navbar li a {
+  padding: 10px 10px;
+}
+}
+
+@media only screen and (min-width:376px) and (max-width:800px){
+
+.navbar {
+  padding:4em;
+  transition: .6s;
+  text-align: center;
+
+}
+
+.navbar ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar ul li {
+  list-style-type: none;
+  font-family: sans-serif;
+  cursor: pointer;
+  margin: 12px;
+
+}
+
+.navbar li a {
+  padding: 10px 10px;
+}
+
+
+
+
+.who-am-i {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hello-world-free-time {
+  width: 85%;
+}
+
+  .menu {
+  float: left;
+  width: 20%;
+}
+
+.menuitem {
+  padding: 8px;
+  margin-top: 5px;
+  border-bottom: 1px solid #f1f1f1;
+} 
+
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+  overflow: hidden;
+}
+.right {
+  background-color: lightblue;
+  float: left;
+  width: 20%;
+  padding: 10px 15px;
+  margin-top: 7px;
+} 
+a{
+  color: white;
+  background: #444;
+  text-decoration: none;
+}
+footer{
+   background-color: black;
+    }
+ .fa{
+    padding: 10px;
+     font-size: 20px;
+      width: 50px;
+     text-align: center;
+    text-decoration: none;
+      
+    }
+    .fa-instagram{
+        background: #125688;
+        color: white;
+    }
+    /*home-sectoin*/
+
+marquee h3{
+  margin-top: 150px;
+}
+
+
+.div-img img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.div-p > h1 {
+  font-size: 16px;
+}
+.div-p > p {
+  font-size: 9px;
+}
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+   .menu, .main  {
+    width: 100%;
+  }
+}
+
